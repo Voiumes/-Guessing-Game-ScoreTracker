@@ -6,7 +6,6 @@ let turnsLeft = document.querySelector("#turnsLeft");
 let resetButton = document.getElementById("reset");
 let turns = 3;
 let win = false;
-
 playerAnswer.addEventListener("change", function(){
     let guess = Number(playerAnswer.value);
     if(guess === randNum && turns !== 0){
